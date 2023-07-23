@@ -1,0 +1,11 @@
+[package]
+name = "type2network"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
+type2network_derive = { path = "./type2network_derive" }
+derive_enum = { path = "../derive_enum"}

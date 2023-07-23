@@ -1,0 +1,12 @@
+[package]
+name = "type2network_derive"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.27", features = ["full", "extra-traits", "visit", "parsing"] }
+quote = "1.0.10"
+proc-macro2 = "1.0.34"

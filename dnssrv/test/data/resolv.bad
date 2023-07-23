@@ -1,0 +1,5 @@
+nameserver 8.8.4.x
+nameserver 8.8.8.y
+
+nameserver 2001:4860:4860::aaaaaaaaaa
+nameserver 2001:4860:4860::bbbbbbbbb
